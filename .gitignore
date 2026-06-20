@@ -1,3 +1,11 @@
 bin
 obj
 *.sln
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+labenv/
