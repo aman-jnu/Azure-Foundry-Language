@@ -1,7 +1,9 @@
 from dotenv import load_dotenv
 import os
 
-# Import namespaces
+# import namespaces
+from azure.identity import DefaultAzureCredential
+from azure.ai.projects import AIProjectClient
 
 
 def main():
